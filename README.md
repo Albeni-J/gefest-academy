@@ -33,3 +33,35 @@ function checkIsNotPrime(number) {
 </body>
 </html>
 ```
+3. Дана строка S.
+Нужно посчитать количество слов в строке. 
+
+К примеру в строк "Hello my name is Assan"  5 cлов
+Нужно будет вывести число 5.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+//Дана строка S.
+//Нужно посчитать количество слов в строке. 
+
+//К примеру в строк "Hello my name is Assan"  5 cлов
+//Нужно будет вывести число 5.
+let s = 'Hello my name is Lena '
+let a = s.split(" ")
+console.log(a)
+console.log(a.length)
+
+
+</script>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+```
