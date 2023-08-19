@@ -1,5 +1,6 @@
 # gefest-academy
-`<!DOCTYPE html>
+`
+<!DOCTYPE html>
 <html>
 <body>
 <script>
@@ -10,15 +11,15 @@ let a = Number(prompt())
 let b = Number(prompt())
 
 for(let i = a; i < b; i++) {
-  if(checkIsPrime(i)) { 
+  if(checkIsNotPrime(i)) { 
     continue;
   }
   console.log(i)
 }
-function checkIsPrime(numbe) {
-  for(let i = 2; i < numbe; i++)
+function checkIsNotPrime(number) {
+  for(let i = 2; i < number; i++)
   {
-    if(!(numbe % i)){
+    if(!(number % i)){
       return 1;
     }
   }
