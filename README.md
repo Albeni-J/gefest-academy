@@ -1,5 +1,5 @@
 # gefest-academy
-`
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -31,4 +31,4 @@ function checkIsNotPrime(number) {
 
 </body>
 </html>
-`
+```
